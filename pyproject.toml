@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bible_verse"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["AnaJuliaMM <ana.martins_2004@outlook.com>"]
 readme = "README.md"
@@ -15,4 +15,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-bible_verse = "my_package.main:print_bible_verse"
+bible_verse = "bible_verse.main:print_bible_verse"
