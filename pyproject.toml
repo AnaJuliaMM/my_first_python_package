@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bible_verse"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["AnaJuliaMM <ana.martins_2004@outlook.com>"]
 readme = "README.md"
