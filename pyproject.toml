@@ -15,4 +15,5 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-bible_verse = "bible_verse.main:print_bible_verse"
+bible_verse_pt = "bible_verse.main:print_bible_verse_pt"
+bible_verse_en = "bible_verse.main:print_bible_verse_en"
