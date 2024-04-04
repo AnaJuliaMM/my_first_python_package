@@ -7,24 +7,42 @@ Este projeto tem como objetivo principal a construção de um gerador aleatório
 ## Funcionalidades Principais
  A biblioteca é capaz de disponibilizar versículos aleatórios da Bíblia, fornecendo uma abordagem educacional sobre seu conteúdo. Afinal, devemos trazer à memória aquilo que nos traz esperança! ❤️
 
-## Como utilizar?
+## Instalação
 
-### 1. Instale o pacote em seu projeto
 ```
 pip install bible_verse
 ```
 
-### 2. Em seu script Python, importe a função que retorna um versículo bíblico:
-```
-from bible_verse.main import get_bible_verse
+## Utilização
 
-verse = get_bible_verse()
+## Através de funções
+
+**Obter verso em português**
+```
+from bible_verse.main import get_bible_verse_pt
+
+verse = get_bible_verse_pt()
 ```
 
-### 3. Ou, se preferir, apenas execute um comando no terminal para obter o texto
+**Obter verso em inglês**
 ```
-bible_verse
+from bible_verse.main import get_bible_verse_en
+
+verse = get_bible_verse_en()
 ```
+
+## Através de comandos
+
+**Obter verso em português**
+```
+bible_verse_pt
+```
+
+**Obter verso em inglês**
+```
+bible_verse_en
+```
+
 
 
 ## Contato 📩
